@@ -1,0 +1,27 @@
+# 秘密情報
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+
+# Node
+node_modules/
+dist/
+build/
+coverage/
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+.vscode/
+.idea/
